@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFA6F50C2D82DED20023C380 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F5092D82DED20023C380 /* TransactionsView.swift */; };
+		EFA6F50D2D82DED20023C380 /* TryTransactionAPICombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F50A2D82DED20023C380 /* TryTransactionAPICombineApp.swift */; };
+		EFA6F50E2D82DED20023C380 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA6F5062D82DED20023C380 /* Preview Assets.xcassets */; };
+		EFA6F50F2D82DED20023C380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA6F5082D82DED20023C380 /* Assets.xcassets */; };
+		EFA6F5122D82DF020023C380 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F5112D82DF020023C380 /* Model.swift */; };
+		EFA6F5142D82E03E0023C380 /* APIConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F5132D82E03E0023C380 /* APIConnect.swift */; };
+		EFA6F5192D82E65D0023C380 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F5182D82E65D0023C380 /* LoginView.swift */; };
+		EFA6F51B2D82F1AF0023C380 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F51A2D82F1AF0023C380 /* AddTransactionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFA6F4F52D82DEC60023C380 /* TryTransactionAPICombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryTransactionAPICombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA6F5062D82DED20023C380 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFA6F5082D82DED20023C380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA6F5092D82DED20023C380 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		EFA6F50A2D82DED20023C380 /* TryTransactionAPICombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryTransactionAPICombineApp.swift; sourceTree = "<group>"; };
+		EFA6F5112D82DF020023C380 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EFA6F5132D82E03E0023C380 /* APIConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnect.swift; sourceTree = "<group>"; };
+		EFA6F5182D82E65D0023C380 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EFA6F51A2D82F1AF0023C380 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFA6F4F72D82DEC60023C380 /* TryTransactionAPICombine */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TryTransactionAPICombine;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFA6F4F22D82DEC60023C380 /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		EFA6F4EC2D82DEC60023C380 = {
 			isa = PBXGroup;
 			children = (
-				EFA6F4F72D82DEC60023C380 /* TryTransactionAPICombine */,
+				EFA6F50B2D82DED20023C380 /* TryTransactionAPICombine */,
 				EFA6F4F62D82DEC60023C380 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,45 @@
 				EFA6F4F52D82DEC60023C380 /* TryTransactionAPICombine.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA6F5072D82DED20023C380 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFA6F5062D82DED20023C380 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFA6F50B2D82DED20023C380 /* TryTransactionAPICombine */ = {
+			isa = PBXGroup;
+			children = (
+				EFA6F5102D82DEE30023C380 /* Model */,
+				EFA6F5172D82E6410023C380 /* View */,
+				EFA6F50A2D82DED20023C380 /* TryTransactionAPICombineApp.swift */,
+				EFA6F5082D82DED20023C380 /* Assets.xcassets */,
+				EFA6F5072D82DED20023C380 /* Preview Content */,
+			);
+			path = TryTransactionAPICombine;
+			sourceTree = "<group>";
+		};
+		EFA6F5102D82DEE30023C380 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFA6F5112D82DF020023C380 /* Model.swift */,
+				EFA6F5132D82E03E0023C380 /* APIConnect.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFA6F5172D82E6410023C380 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFA6F5092D82DED20023C380 /* TransactionsView.swift */,
+				EFA6F5182D82E65D0023C380 /* LoginView.swift */,
+				EFA6F51A2D82F1AF0023C380 /* AddTransactionView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +109,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EFA6F4F72D82DEC60023C380 /* TryTransactionAPICombine */,
 			);
 			name = TryTransactionAPICombine;
 			packageProductDependencies = (
@@ -109,6 +156,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA6F50E2D82DED20023C380 /* Preview Assets.xcassets in Resources */,
+				EFA6F50F2D82DED20023C380 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA6F5122D82DF020023C380 /* Model.swift in Sources */,
+				EFA6F50C2D82DED20023C380 /* TransactionsView.swift in Sources */,
+				EFA6F50D2D82DED20023C380 /* TryTransactionAPICombineApp.swift in Sources */,
+				EFA6F51B2D82F1AF0023C380 /* AddTransactionView.swift in Sources */,
+				EFA6F5192D82E65D0023C380 /* LoginView.swift in Sources */,
+				EFA6F5142D82E03E0023C380 /* APIConnect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
