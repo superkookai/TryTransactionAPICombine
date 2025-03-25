@@ -40,13 +40,16 @@ struct TransactionsView: View {
                 }
             }
         }
-        .onAppear {
-            loadTransactions()
-        }
+//        .onAppear {
+//            loadTransactions()
+//        }
         .sheet(isPresented: $showSheet, onDismiss: {
-            loadTransactions()
+//            loadTransactions()
         }) {
             AddTransactionView()
+        }
+        .task {
+            await apiConnect.watchTransactions()
         }
     }
 }

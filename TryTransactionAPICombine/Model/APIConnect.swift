@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import SwiftUI
 
 @MainActor
 @Observable
@@ -138,5 +139,29 @@ class APIConnect {
                 }
             }
             .store(in: &cancellable)
+    }
+    
+    func watchTransactions() async {
+        let baseURL = "http://127.0.0.1:8000/transaction/"
+        guard let url = URL(string: baseURL) else {
+            print("Error bad url")
+            return
+        }
+        
+        guard let token = self.token else {
+            print("No access token")
+            return
+        }
+        
+        let urlWatcher = URLWatcher(url: url, delay: 3, token: token)
+        do {
+            for try await data in urlWatcher {
+                try withAnimation {
+                    self.transactions = try JSONDecoder().decode([Transaction].self, from: data)
+                }
+            }
+        } catch {
+            print("Error decoded watching transactions: \(error.localizedDescription)")
+        }
     }
 }

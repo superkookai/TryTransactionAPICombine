@@ -15,6 +15,7 @@
 		EFA6F5142D82E03E0023C380 /* APIConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F5132D82E03E0023C380 /* APIConnect.swift */; };
 		EFA6F5192D82E65D0023C380 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F5182D82E65D0023C380 /* LoginView.swift */; };
 		EFA6F51B2D82F1AF0023C380 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F51A2D82F1AF0023C380 /* AddTransactionView.swift */; };
+		EFFC4ABE2D925EB500DD45AB /* URLWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFC4ABD2D925EB500DD45AB /* URLWatcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EFA6F5132D82E03E0023C380 /* APIConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnect.swift; sourceTree = "<group>"; };
 		EFA6F5182D82E65D0023C380 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EFA6F51A2D82F1AF0023C380 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		EFFC4ABD2D925EB500DD45AB /* URLWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLWatcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				EFA6F5112D82DF020023C380 /* Model.swift */,
 				EFA6F5132D82E03E0023C380 /* APIConnect.swift */,
+				EFFC4ABD2D925EB500DD45AB /* URLWatcher.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA6F5122D82DF020023C380 /* Model.swift in Sources */,
+				EFFC4ABE2D925EB500DD45AB /* URLWatcher.swift in Sources */,
 				EFA6F50C2D82DED20023C380 /* TransactionsView.swift in Sources */,
 				EFA6F50D2D82DED20023C380 /* TryTransactionAPICombineApp.swift in Sources */,
 				EFA6F51B2D82F1AF0023C380 /* AddTransactionView.swift in Sources */,
