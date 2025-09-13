@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF345B7F2E7558520013E564 /* URLWatcherCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF345B7E2E7558460013E564 /* URLWatcherCombine.swift */; };
 		EFA6F50C2D82DED20023C380 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F5092D82DED20023C380 /* TransactionsView.swift */; };
 		EFA6F50D2D82DED20023C380 /* TryTransactionAPICombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6F50A2D82DED20023C380 /* TryTransactionAPICombineApp.swift */; };
 		EFA6F50E2D82DED20023C380 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA6F5062D82DED20023C380 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF345B7E2E7558460013E564 /* URLWatcherCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLWatcherCombine.swift; sourceTree = "<group>"; };
 		EFA6F4F52D82DEC60023C380 /* TryTransactionAPICombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryTransactionAPICombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA6F5062D82DED20023C380 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFA6F5082D82DED20023C380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		EFA6F5102D82DEE30023C380 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EF345B7E2E7558460013E564 /* URLWatcherCombine.swift */,
 				EFA6F5112D82DF020023C380 /* Model.swift */,
 				EFA6F5132D82E03E0023C380 /* APIConnect.swift */,
 				EFFC4ABD2D925EB500DD45AB /* URLWatcher.swift */,
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF345B7F2E7558520013E564 /* URLWatcherCombine.swift in Sources */,
 				EFA6F5122D82DF020023C380 /* Model.swift in Sources */,
 				EFFC4ABE2D925EB500DD45AB /* URLWatcher.swift in Sources */,
 				EFA6F50C2D82DED20023C380 /* TransactionsView.swift in Sources */,
